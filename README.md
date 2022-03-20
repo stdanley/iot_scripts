@@ -64,12 +64,15 @@ following commands have been implemented:
 
 ## supported systems
 ### linux 
+ **pre requirements**
+
+ install mosquitto-clients package using os-specific package manager
+ install __gawk__ manually instead of traditional awk on openwrt .
  
  **run as system service**
  
  please refer to the system guide on how to registe a system service. 
  the dirs **linux** and **openwrt** are implements to make our iot connector a system service.
- ps, we must install __gawk__ manually instead of traditional awk on openwrt .
 
 
 ## mqtt server:
